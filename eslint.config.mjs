@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // The Lovable reference project is not part of this app's build or lint.
+    "frontend/**",
   ]),
 ]);
 
